@@ -1,3 +1,15 @@
+### setup
+
+apt-get update
+apt-get install -y ffmpeg
+
+ffmpeg -version
+
+python -m pip install --upgrade pip setuptools wheel
+
+python -m pip install -e ".[dev]"
+
+
 ml_systems/
 │
 ├── notebooks/
